@@ -23,6 +23,6 @@ public class Proxy implements Site{
 
     @Override
     public void display(String url) {
-
+        makeConnection(url);
     }
 }
